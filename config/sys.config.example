@@ -5,13 +5,13 @@
   [
    %% PUT YOUR CUSTOM SETTINGS BELOW vvvvv
 
-   %% {ports,
-   %%  [#{name => mtp_handler_1,
-   %%     listen_ip => "0.0.0.0",
-   %%     port => 1443,
-   %%     secret => <<"d0d6e111bada5511fcce9584deadbeef">>,
-   %%     tag => <<"dcbe8f1493fa4cd9ab300891c0b5b326">>}
-   %%  ]}
+    {ports,
+     [#{name => mtp_handler_1,
+        listen_ip => "0.0.0.0",
+        port => 443,
+        secret => <<"ff543ebef83147d3da80042d24e2999e">>,
+        tag => <<"aa5dd98949ac427e013fd9840648520e">>}
+     ]}
    %% ^^^^^ END
    ]},
 
